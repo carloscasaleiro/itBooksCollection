@@ -1,0 +1,12 @@
+INSERT INTO BOOK (title, author, year_published, isbn, image_url, description)
+VALUES
+  ('Eloquent JavaScript: A Modern Introduction to Programming', 'Marijn Haverbeke', 2018, '978-1593279509', 'https://m.media-amazon.com/images/I/91asIC1fRwL._SL1500_.jpg', 'A comprehensive introduction to JavaScript programming'),
+  ('Head First Design Patterns: A Brain-Friendly Guide', 'Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra', 2004, '978-0596007126', 'https://m.media-amazon.com/images/I/91quawUTiVL._SL1500_.jpg', 'Learn design patterns in a fun and engaging way'),
+  ('Clean Code: A Handbook of Agile Software Craftsmanship', 'Robert C. Martin', 2008, '978-0132350884', 'https://m.media-amazon.com/images/I/51E2055ZGUL._SL1000_.jpg', 'A guide to writing clean, maintainable code'),
+  ('The Pragmatic Programmer: Your Journey to Mastery', 'Andrew Hunt and David Thomas', 1999, '978-0201616224', 'https://m.media-amazon.com/images/I/71f743sOPoL._SL1500_.jpg', 'Practical advice for software developers'),
+  ('Design Patterns: Elements of Reusable Object-Oriented Software', 'Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides', 1994, '978-0201633610', 'https://m.media-amazon.com/images/I/81gtKoapHFL._SL1500_.jpg', 'Classic book on software design patterns'),
+  ('Introduction to the Theory of Computation', 'Michael Sipser', 2005, '978-1133187790', 'https://m.media-amazon.com/images/I/8128hU9G05L._SL1500_.jpg', 'An introduction to theoretical computer science'),
+  ('Cracking the Coding Interview: 189 Programming Questions and Solutions', 'Gayle Laakmann McDowell', 2019, '978-0984782857', 'https://m.media-amazon.com/images/I/61mIq2iJUXL._SL1360_.jpg', 'Preparation for technical interviews'),
+  ('Clean Architecture: A Craftsman''s Guide to Software Structure and Design', 'Robert C. Martin', 2017, '978-0134494166', 'https://m.media-amazon.com/images/I/61r4tYVsRVL._SL1304_.jpg', 'Principles for designing clean software architecture'),
+  ('The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations', 'Gene Kim, Patrick Debois, John Willis, and Jez Humble', 2016, '978-1942788003', 'https://m.media-amazon.com/images/I/71mhqEw8LcL._SL1500_.jpg', 'A comprehensive guide to DevOps practices'),
+  ('Refactoring: Improving the Design of Existing Code', 'Martin Fowler', 2018, '978-0134757599', 'https://m.media-amazon.com/images/I/71yPDDIwcoL._SL1500_.jpg', 'Learn how to improve code quality through refactoring');

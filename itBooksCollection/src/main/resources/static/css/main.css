@@ -1,0 +1,27 @@
+/* * { outline: 1px solid red;
+} */
+
+body {
+    background-color: #D6D58E;
+}
+
+h3 {
+    color: #005C53;
+    margin-top: 1em;
+}
+
+.btn-action {
+    width: 100px; /* Adjust the width as needed */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h4 {
+    color: #042940;
+}
+
+.logo {
+    width: 100px; height: 100px;
+}
