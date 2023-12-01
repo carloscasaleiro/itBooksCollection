@@ -18,3 +18,5 @@ This GitHub repository hosts a comprehensive book collection management web appl
 The repository showcases how these technologies come together to create a modern book collection management system. Spring Boot accelerates development, while Spring Data JPA simplifies database interactions. Spring Data REST provides a robust RESTful API for data access, and Thymeleaf enhances the user interface. You can choose between H2 and MySQL for data storage, and Lombok reduces code verbosity, making development more efficient.
 
 This repository serves as a valuable resource for anyone looking to build similar web applications, highlighting the strengths and capabilities of these technologies. Explore, contribute, or adapt the codebase to meet your specific project requirements.
+
+![screenshot](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/0d9c7f5f-f190-41b9-8021-897a9ebb64c3)
