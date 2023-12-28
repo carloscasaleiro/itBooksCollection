@@ -1,13 +1,21 @@
 /* * { outline: 1px solid red;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Slab:wght@400;700&display=swap');
+
+
 body {
-    background-color: #D6D58E;
+    background: radial-gradient(
+            circle at center,
+            rgba(241, 210, 70, 0.98),
+            rgba(250, 176, 103, 0.87)
+    );
 }
 
 h3 {
     color: #005C53;
     margin-top: 1em;
+    font-family: "Roboto Slab", sans-serif;
 }
 
 .btn-action {

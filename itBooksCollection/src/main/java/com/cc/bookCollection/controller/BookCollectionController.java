@@ -109,4 +109,10 @@ public class BookCollectionController {
 
         return "redirect:/books/list";
     }
+
+    @GetMapping("/login")
+    public String login(Model model) {
+
+        return "login.html";
+    }
 }
