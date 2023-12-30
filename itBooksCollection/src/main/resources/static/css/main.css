@@ -9,10 +9,6 @@ body {
     );
 }
 
-h3 {
-    margin-top: 1em;
-}
-
 .btn-action {
     width: 100px;
 }
@@ -21,14 +17,6 @@ h3 {
     text-align: center;
 }
 
-.h4 {
-    color: #042940;
-}
-
 .logo {
     width: 500px;
-}
-
-.failed {
-    color: red;
 }

@@ -8,6 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}">
+
+    <script>
+        function submitForm(action) {
+            document.getElementById('actionField').value = action;
+            document.getElementById('form').submit();
+        }
+    </script>
 </head>
 
 <body>
@@ -20,9 +27,15 @@
 
     <hr class="mt-0 p-0">
 
-    <a th:href="@{/books/showFormForAdd}" class="btn btn-primary btn-sm active mb-3 col-2">
-        Add Book
-    </a>
+    <div class="d-flex justify-content-between">
+        <a th:href="@{/books/showFormForAdd}" class="btn btn-primary btn-sm active mb-3 col-2">
+            Add Book
+        </a>
+        <form id="form" th:action="@{/logout}" method="post">
+            <input type="hidden" id="actionField" name="action"/>
+        </form>
+        <a href="#" onclick="submitForm('/logout')" class="btn btn-danger btn-sm active mb-3 col-2">Logout</a>
+    </div>
 
     <table class="table table-bordered table-striped table-hover">
         <thead class="table-success">

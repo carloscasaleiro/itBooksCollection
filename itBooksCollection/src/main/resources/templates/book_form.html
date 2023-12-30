@@ -14,26 +14,32 @@
 
 <div class="container">
 
-    <h3>IT Books</h3>
-    <hr>
+    <div class="d-flex align-items-center justify-content-center flex-column">
+        <img class="mt-3 logo" src="/images/it_books_logo-01.png" alt="IT Books Logo">
+    </div>
 
-    <p class="h4 mb-4">Save Book</p>
+    <hr class="mt-0 p-0">
 
-    <form action="#" th:action="@{/books/save}" th:object="${book}" method="post">
+    <form action="#" th:action="@{/books/save}" th:object="${book}" method="post"
+          class="d-flex align-items-center justify-content-center flex-column">
 
         <input type="hidden" th:field="*{id}">
 
-        <input type="text" th:field="*{title}" class="form-control mb-4 w-25" placeholder="Title">
-        <input type="text" th:field="*{author}" class="form-control mb-4 w-25" placeholder="Author">
-        <input type="text" th:field="*{yearPublished}" class="form-control mb-4 w-25" placeholder="Year">
-        <input type="text" th:field="*{isbn}" class="form-control mb-4 w-25" placeholder="ISBN">
-        <input type="text" th:field="*{description}" class="form-control mb-4 w-25" placeholder="Description">
-        <input type="text" th:field="*{imageUrl}" class="form-control mb-4 w-25" placeholder="Cover URL">
+        <input type="text" th:field="*{title}" class="form-control mb-3 w-25" placeholder="Title">
+        <input type="text" th:field="*{author}" class="form-control mb-3 w-25" placeholder="Author">
+        <input type="text" th:field="*{yearPublished}" class="form-control mb-3 w-25" placeholder="Year">
+        <input type="text" th:field="*{isbn}" class="form-control mb-3 w-25" placeholder="ISBN">
+        <input type="text" th:field="*{description}" class="form-control mb-3 w-25" placeholder="Description">
+        <input type="text" th:field="*{imageUrl}" class="form-control mb-3 w-25" placeholder="Cover URL">
 
-        <button type="submit" class="btn btn-info col-2">Save</button>
+        <button type="submit" class="btn btn-info col-2"
+                role="button" aria-pressed="true"
+                onclick="if(!(confirm('Are you sure you want to save or update this book?'))) return false">
+            Save / Update
+        </button>
 
         <hr>
-        <a th:href="@{/books/list}">Back to Books List</a>
+        <a th:href="@{/books/list}" class="mb-2 btn btn-danger col-2">Back to Books List</a>
 
     </form>
 
