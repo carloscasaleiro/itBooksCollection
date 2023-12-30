@@ -9,6 +9,8 @@ This GitHub repository hosts a comprehensive book collection management web appl
 
     Spring Data REST: With Spring Data REST, the application exposes JPA repositories as RESTful web services. This allows for seamless data access and presents a REST API for managing book-related operations.
 
+    Spring Security Configuration: The project integrates Spring Security to manage authentication and authorization.
+
     Thymeleaf: Thymeleaf, a modern server-side Java template engine, is utilized for creating dynamic and interactive web pages. It enhances the user interface, rendering dynamic content and enabling a smooth user experience.
 
     H2/MySQL Database: You have the flexibility to choose between the H2 in-memory database for development and testing or MySQL for a production environment. These databases store and manage book data effectively.
@@ -19,4 +21,11 @@ The repository showcases how these technologies come together to create a modern
 
 This repository serves as a valuable resource for anyone looking to build similar web applications, highlighting the strengths and capabilities of these technologies. Explore, contribute, or adapt the codebase to meet your specific project requirements.
 
-![screenshot](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/0d9c7f5f-f190-41b9-8021-897a9ebb64c3)
+Default Credentials:
+
+user
+
+pass
+
+![Screen Shot 1](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/46935ffc-5d2b-46f8-8e5e-2f88ff993a7f)
+![Screen Shot 2](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/1db159ff-8aa3-45f0-961e-5fb9bb8a2c8c)
