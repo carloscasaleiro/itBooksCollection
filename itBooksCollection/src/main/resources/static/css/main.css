@@ -1,9 +1,6 @@
 /* * { outline: 1px solid red;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Slab:wght@400;700&display=swap');
-
-
 body {
     background: radial-gradient(
             circle at center,
@@ -13,13 +10,11 @@ body {
 }
 
 h3 {
-    color: #005C53;
     margin-top: 1em;
-    font-family: "Roboto Slab", sans-serif;
 }
 
 .btn-action {
-    width: 100px; /* Adjust the width as needed */
+    width: 100px;
 }
 
 .text-center {
@@ -31,5 +26,9 @@ h3 {
 }
 
 .logo {
-    width: 100px; height: 100px;
+    width: 500px;
+}
+
+.failed {
+    color: red;
 }

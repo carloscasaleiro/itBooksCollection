@@ -43,7 +43,7 @@ public class BookCollectionController {
 
         model.addAttribute("reserved_books", reservedBooks);
 
-        return "book_list.html";
+        return "book_list";
     }
 
     @GetMapping("/showFormForAdd")
@@ -53,7 +53,7 @@ public class BookCollectionController {
 
         model.addAttribute("book", book);
 
-        return "book_form.html";
+        return "book_form";
     }
 
     @PostMapping("/save")
@@ -71,7 +71,7 @@ public class BookCollectionController {
 
         model.addAttribute("book", book);
 
-        return "book_form.html";
+        return "book_form";
     }
 
     @GetMapping("/delete")
@@ -108,11 +108,5 @@ public class BookCollectionController {
                 .forEach(reservationService::save);
 
         return "redirect:/books/list";
-    }
-
-    @GetMapping("/login")
-    public String login(Model model) {
-
-        return "login.html";
     }
 }
