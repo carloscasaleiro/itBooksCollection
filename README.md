@@ -27,5 +27,6 @@ user
 
 pass
 
-![Screen Shot 1](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/46935ffc-5d2b-46f8-8e5e-2f88ff993a7f)
-![Screen Shot 2](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/1db159ff-8aa3-45f0-961e-5fb9bb8a2c8c)
+![Screen Shot 1](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/9a49dcbb-a36b-49d4-8a47-7d3b052da248)
+![Screen Shot 2](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/e334753e-d806-43e0-95df-482f8be9f01d)
+![Screen Shot 3](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/8475e5bb-b1ac-4dd1-8f72-7f155e757dda)
