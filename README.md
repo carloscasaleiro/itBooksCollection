@@ -21,10 +21,9 @@ The repository showcases how these technologies come together to create a modern
 
 This repository serves as a valuable resource for anyone looking to build similar web applications, highlighting the strengths and capabilities of these technologies. Explore, contribute, or adapt the codebase to meet your specific project requirements.
 
-Default Credentials:
+Test Credentials:
 
 user
-
 pass
 
 ![Screen Shot 1](https://github.com/carloscasaleiro/itBooksCollection/assets/139387646/9a49dcbb-a36b-49d4-8a47-7d3b052da248)
